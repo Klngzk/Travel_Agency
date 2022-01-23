@@ -1,5 +1,5 @@
 # Travel_Agency Website
-Simple travel agency with pure HTML-CSS-JS
+Simple travel site agency with pure HTML-CSS-JS
 - FST mini-project
 - HTM-CSS-JS
 
