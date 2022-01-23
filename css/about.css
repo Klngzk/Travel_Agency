@@ -1,0 +1,27 @@
+/* Style pour la page de "a propos de nous "*/
+body{
+    background: transparent;
+    overflow: hidden;
+ 
+
+}
+h2{
+    text-align: center;
+    color: #e3f2fd;
+    padding: 20px;
+    text-transform:uppercase;
+}
+
+img{
+    width: 100%;
+    opacity: 0.7;
+}
+p{
+    font-size: 20px;
+    color: white;
+    padding: 19px;
+    text-align: center;
+}
+.imgcont{
+    background-color: black;
+}

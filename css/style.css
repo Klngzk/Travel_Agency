@@ -1,0 +1,214 @@
+
+.volet23{
+  background-image: url(../images/image.jpg); 
+ 
+  background-repeat: round; 
+ 
+
+}
+/* ////////////// */
+html::-webkit-scrollbar {
+  width: 10px;
+}
+
+html::-webkit-scrollbar-track {
+  background: rgb(179, 177, 177);
+  border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: rgb(136, 136, 136);
+  border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background: rgb(100, 100, 100);
+  border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb:active {
+  background: rgb(68, 68, 68);
+  border-radius: 10px;
+}
+/* /////////////////// */
+.title{
+  position: absolute;
+  color: #afd8f6;
+  top: 8%;
+  right: 30%;
+z-index: 1;
+font-family: Helvetica, sans-serif;
+/* text-align: center;
+background-color: #e3f2fd;
+margin-bottom: 0;
+color: #355b82;
+padding-top: 10px;
+font-size: 46px;
+text-transform: uppercase;
+opacity: 0.9;
+padding-left: 92px; */
+}
+.volet2{
+  background-repeat: round; 
+
+}
+.volet3{
+    border-left: 1px solid #e3f2fd;
+}
+.volet4{
+  background-color: #e3f2fd;
+  border-radius: 15px;
+  opacity: .4;
+}
+
+.card{
+    padding: 5px;
+    width: auto;
+    background-color: #e3f2fd;
+}
+.container{
+  margin: 0;
+  max-width: none;
+}
+
+nav{
+ background-color: #e3f2fd;
+ opacity: 0.9;
+}
+iframe{
+    padding: 50px;
+    width: 100%;
+    height: 800px;
+    background-color: transparent;
+
+}
+table{
+    width: 100%;
+    padding: 20px;
+}
+
+/* ///////// */
+/* The sidepanel menu */
+.volet3_c {
+    display: none;
+    transition: display 2s linear 1s; /* 0.5 second transition effect to slide in the sidepanel */
+  }
+  .volet4_c {
+    display: none;
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+  }
+  
+  /* The sidepanel links */
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidepanel a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .volet3_c  .closebtn {
+    /* position: absolute; */
+    /* top: 0;
+    right: 25px; */
+    font-size: 36px;
+    /* margin-left: 50px; */
+    text-decoration: none;
+  }
+
+  .volet4_c  .closebtn {
+    /* position: absolute; */
+    /* top: 0;
+    right: 25px; */
+    font-size: 36px;
+    margin-left: 50px;
+    text-decoration: none;
+  }
+  
+  /* Style the button that is used to open the sidepanel */
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #e3f2fd;
+    color: black;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    width: 100%;
+    border-radius: 25px;
+    margin-right: 0;
+  }
+  .openbtnf {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #e3f2fd;
+    color: black;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    width: 100%;
+    border-radius: 25px;
+    margin-right: 0;
+  }
+  .openbtn:hover {
+    background-color: rgb(96, 170, 231);
+  }
+  /* /////////// */
+.carousel-item{
+  height: 300px;
+  background-color: black;
+}
+.carousel-item img{
+  height: 300px;
+  object-fit: cover;
+  opacity: .6;
+}
+
+/* ////////////// */
+.bounce {
+  display: inline-block;
+  position: relative;
+  -moz-animation: bounce 0.5s infinite linear;
+  -o-animation: bounce 0.5s infinite linear;
+  -webkit-animation: bounce 0.5s infinite linear;
+  animation: bounce 0.5s infinite linear;
+
+}
+
+@-webkit-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@-moz-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@-o-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@-ms-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
